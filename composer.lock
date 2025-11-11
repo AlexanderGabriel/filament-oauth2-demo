@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "98e48116bba0db083000860897a095fc",
+    "content-hash": "1b4f15144bd666b3611072267dd6610b",
     "packages": [
         {
             "name": "alexandergabriel/filament-oauth2",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexanderGabriel/filament-oauth2.git",
+                "reference": "ce72d289124d020451b5442503dc6b5b7a7ffd9c"
+            },
             "dist": {
-                "type": "path",
-                "url": "../filament-oauth2",
-                "reference": "e663b03c0e5e30239a7a5bb508ae65f0c2356ded"
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexanderGabriel/filament-oauth2/zipball/ce72d289124d020451b5442503dc6b5b7a7ffd9c",
+                "reference": "ce72d289124d020451b5442503dc6b5b7a7ffd9c",
+                "shasum": ""
             },
             "require": {
                 "filament/filament": "^4.0",
@@ -33,6 +39,7 @@
                 "phpstan/phpstan-phpunit": "^1.0",
                 "spatie/laravel-ray": "^1.26"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -78,7 +85,7 @@
                     "role": "Developer"
                 }
             ],
-            "description": "This is my package filament-oauth2",
+            "description": "Enable OAuth2 Authentication to FilamentPHP Panels",
             "homepage": "https://github.com/alexandergabriel/filament-oauth2",
             "keywords": [
                 "AlexanderGabriel",
@@ -89,9 +96,13 @@
                 "issues": "https://github.com/alexandergabriel/filament-oauth2/issues",
                 "source": "https://github.com/alexandergabriel/filament-oauth2"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "funding": [
+                {
+                    "type": "github",
+                    "url": "https://github.com/AlexanderGabriel"
+                }
+            ],
+            "time": "2025-11-11T22:45:47+00:00"
         },
         {
             "name": "anourvalar/eloquent-serialize",
