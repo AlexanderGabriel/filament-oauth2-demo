@@ -24,3 +24,5 @@ Homestead.yaml
 Thumbs.db
 public/css/**/*.css
 public/js/**/*.js
+public/fonts/filament/**/*.woff2
+public/fonts/**/*.css
